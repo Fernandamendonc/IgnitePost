@@ -26,7 +26,7 @@ export interface PostType {
 }
 
 interface PostProps {
-  post: PostType
+  readonly post: PostType
 }
 
 
@@ -84,7 +84,7 @@ export function Post({ post }: PostProps) {
           if(line.type === 'paragraph'){
             return <p key={line.content}>{line.content}</p>
           }else if(line.type === 'link'){
-            return <p key={line.content} ><a href='' target="_blank">{line.content}</a></p>
+            return <p key={line.content} ><a href='#' target="_blank">{line.content}</a></p>
           }
         })}
       </div>
