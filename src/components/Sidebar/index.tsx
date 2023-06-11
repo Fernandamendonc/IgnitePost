@@ -2,6 +2,7 @@ import { PencilLine } from 'phosphor-react'
 
 import styles from '../Sidebar/styles.module.css'
 import { Avatar } from '../Avatar'
+import React from 'react'
 
 export function Sidebar() {
   return(

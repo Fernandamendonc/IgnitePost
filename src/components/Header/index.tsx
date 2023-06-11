@@ -1,6 +1,7 @@
 import styles from './styles.module.css';
 
 import igniteLogo from '../../assets/igniteLogo.svg';
+import React from 'react'
 
 export function Header() {
   return(
